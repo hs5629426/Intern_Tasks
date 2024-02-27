@@ -17,7 +17,7 @@ def play_game():
 
         num=int(input("Guess the number :"))
         if num==random_no:
-            print("You Won .... ")
+            print("You Won the Game.... ")
             break
         elif num>random_no:
             print(" Too High ....")
