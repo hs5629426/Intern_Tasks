@@ -49,7 +49,7 @@ def main():
             # Display current weather data
             print("\nCurrent Weather:")
             print("---------------------\n")
-            print(f"Temperature: {weather_data['main']['temp']}°C")
+            print(f"Temperature: {weather_data['main']['temp']}°Celsius")
             print(f"Humidity: {weather_data['main']['humidity']}%")
             print(f"Wind Speed: {weather_data['wind']['speed']} m/s")
             print(f"Weather Conditions: {weather_data['weather'][0]['description']}")
