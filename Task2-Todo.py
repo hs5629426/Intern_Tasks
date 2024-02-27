@@ -6,7 +6,7 @@ class ToDoListApp:
     def __init__(self, root):
         self.root = root
         self.root.geometry("400x550")
-        self.root.title("TO-DO LIST APP")
+        self.root.title("TO-DO LIST APPLICATION")
 
         self.tasks = []
 
